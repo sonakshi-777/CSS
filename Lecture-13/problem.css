@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: start;
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+
+    /* align-items: center; */
+    /* align-items: end; */
+    /* align-items: start; */
+    /* align-items: stretch; */
+
+    gap: 10px;
+
+    flex-wrap: wrap;
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    padding-left: 40px;
+
+    /* flex-basis: auto; */
+    /* flex-basis: content; */
+    /* flex-basis: inherit; */
+    /* flex-basis: initial; */
+    /* flex-basis: unset; */
+
+    /* flex-shrink: inherit; */
+    /* flex-shrink: initial; */
+    /* flex-shrink: unset; */
+
+    /* flex-grow: inherit; */
+    /* flex-grow: initial; */
+    /* flex-grow: unset; */
+
+    /* align-content: end; */
+    /* align-content: start; */
+    /* align-content: center; */
+    /* align-content: space-around; */
+    /* align-content: space-between; */
+    /* align-content: space-evenly; */
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    /* text-align: center; */
+    /* padding: 30px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: chocolate;
+    border: 1px solid black;
+    /* margin: 10px; */
+}
+
+.card2{
+    align-self: center;
+    /* align-self: flex-start; */
+    /* align-self: flex-end; */
+}

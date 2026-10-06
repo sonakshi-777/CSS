@@ -1,0 +1,85 @@
+/* span {
+    color: darkblue;
+}
+
+h3 {
+    color: darkgrey;
+}
+
+a {
+    color: brown;
+}
+
+li {
+    color: darkred;
+}
+
+.Hello {
+    color: black;
+}
+
+.Hello2 {
+    background-color: crimson;
+}
+
+#Bloom {
+    background-color: green;
+}
+
+/* Universal selector */
+/* * {
+    color: blueviolet;
+} */
+
+/* div {
+    color: chocolate;
+} */
+
+/* div > p {
+    color: rgb(223, 0, 119);
+} */
+
+/* a + p {
+    color: rgb(255, 0, 0);
+} */
+
+a ~ p {
+    color: rgb(194, 0, 0);
+}
+
+h1:hover {
+    background-color: aqua;
+}
+
+/* li:hover {
+    color: cornflowerblue;
+} */
+
+/* li:first-child {
+    color: blue;
+} */
+
+/* li:last-child {
+    color: aqua;
+} */
+
+li:nth-child(2n + 1){
+    color: red;
+}
+
+h1::after {
+    content: " Namste";
+}
+
+h1::before {
+    content: "WE ";
+}
+
+h1::first-letter {
+    color: green;
+}
+
+h1::selection {
+    color: black;
+    background-color: orangered ;
+}
